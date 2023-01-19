@@ -2,57 +2,165 @@
 
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/WoodenBox.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/Floor.proto"
 
 WorldInfo {
   basicTimeStep 16
 }
 Viewpoint {
-  orientation -0.47858172302695456 0.5677339619741505 0.6698042122931784 1.7987461503788245
-  position -0.05080412375413724 -0.5016402321462586 1.6305607679063365
+  orientation 0.22654995656350713 0.5236000363983977 -0.8212905205009184 0.9697428590904137
+  position -1.204376039404057 1.2663667625276935 1.1433519515996373
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
-RectangleArena {
-  floorTileSize 0.25 0.25
-  wallHeight 0.05
-}
 E-puck {
-  hidden position_0_0 -4111.028792583081
-  hidden position_0_1 -5140.6256909887215
-  hidden linearVelocity_0 -0.005746393313244254 5.324392778523664e-11 -1.7866312873593415e-11
-  hidden angularVelocity_0 -3.6629355350259013e-09 4.3808419629704233e-10 -6.36366722395689e-06
-  hidden rotation_1 0 -1 0 1.8256016876312022
-  hidden linearVelocity_1 -0.005746469097700502 1.4714820562034024e-07 3.517741654244792e-11
-  hidden angularVelocity_1 -0.5584142708210824 -0.28732791133233043 -2.2978290247406725e-05
-  hidden rotation_2 0 -1 0 0.9801097158198063
-  hidden linearVelocity_2 -0.005746317701000211 -1.4709432267778815e-07 -7.011720093258335e-11
-  hidden angularVelocity_2 -0.5584142591508621 -0.28732792716472144 -2.299415410967926e-05
-  translation -0.3751387352856874 0.4631324951958229 -2.8573870826260547e-05
-  rotation 0.001550231078667575 -0.0009639050111419441 0.999998333833978 2.0460116780204762
+  hidden position_0_0 -4094.4495932376403
+  hidden position_0_1 -5124.046491658018
+  hidden linearVelocity_0 -0.00575723067132625 0.011192665463543507 2.5811567584588177e-08
+  hidden angularVelocity_0 -0.0015744271677205898 -0.0008098473411792561 1.5332415509795577e-09
+  hidden rotation_1 0 1 0 2.1872270434500543
+  hidden linearVelocity_1 -0.005761279638598981 0.011200537075716136 2.90791777854276e-11
+  hidden angularVelocity_1 -0.5600268181926977 -0.2880639630657095 9.922715172688509e-09
+  hidden rotation_2 0 1 0 3.0327190005249074
+  hidden linearVelocity_2 -0.005761279673852438 0.011200537143889498 6.96182629459956e-11
+  hidden angularVelocity_2 -0.5600268177392785 -0.2880639639539303 -9.575947060495079e-09
+  translation -0.06917621879786302 -0.1830250201151126 -3.19241185995113e-05
+  rotation -0.0011957057145464685 0.0007295715357038578 0.9999990190061281 2.0458788003276025
   controller "epuck_go_forward"
 }
 WoodenBox {
-  translation -0.21617900315532462 -0.06795027920171681 0.04990189999999999
-  rotation 4.439931364240037e-16 -1.028013281418345e-15 1 0.010232827364322999
+  hidden linearVelocity_0 -8.585073948481605e-18 -1.0862745677618734e-17 -1.4211040074178805e-16
+  hidden angularVelocity_0 4.312904714450234e-25 -3.996802890821188e-16 -1.9795516922283733e-17
+  translation -0.21617900314550817 -0.06795028016088041 0.04990190000000001
+  rotation -2.3326321815465683e-15 -5.553766141588499e-17 1 0.010235307179586388
   size 0.1 0.1 0.1
   mass 0.5
 }
 WoodenBox {
-  translation 0.18836344901938956 -0.241724166622857 0.0499018999999999
-  rotation -2.641567020352497e-16 1.655827214705971e-16 -1 0.16065607350664932
+  translation 0.18836344901938956 -0.241724166622857 0.04990190001471939
+  rotation -1.6250220040008715e-16 2.27068113324581e-16 -1 0.16065607350664932
   name "wooden box(1)"
   size 0.1 0.1 0.1
   mass 0.5
 }
 WoodenBox {
-  translation 0.18355056896770436 0.2425332457108863 0.0499018999999999
-  rotation -4.428332243056754e-18 -1.5071855526355766e-16 1 0.050660758933123724
+  translation 0.18355056896770436 0.2425332457108863 0.04990190001471939
+  rotation 1.2657037902103142e-16 3.5387824122083475e-17 1 0.05066075893312371
   name "wooden box(2)"
   size 0.1 0.1 0.1
   mass 0.5
+}
+Floor {
+  size 1 1
+}
+Solid {
+  translation 0 0 0.04958907968091044
+  children [
+    DEF BALL_GEOMETRY Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.05
+        subdivision 2
+      }
+    }
+  ]
+  boundingObject USE BALL_GEOMETRY
+  physics Physics {
+  }
+  linearVelocity 0 0 2.0279036687022507e-16
+}
+Solid {
+  translation -3.52654e-06 0.489999 0.0300002
+  rotation -2.7999599999889585e-06 -2.1785999999914086e-07 0.9999999999960565 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "C:/Users/mrayh/Downloads/0001.jpg"
+            ""
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.02 0.05
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Solid {
+  translation 0.490001 3.4e-06 0.030005
+  rotation 3.0178299999761977e-06 -2.5821099999796344e-06 -0.9999999999921128 1.57079
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "C:/Users/mrayh/Downloads/0001.jpg"
+            ""
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.02 0.05
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation -0.499998 -1e-06 0.0299953
+  rotation 3.0178299999761977e-06 -2.5821099999796344e-06 -0.9999999999921128 1.57079
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "C:/Users/mrayh/Downloads/0001.jpg"
+            ""
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.02 0.05
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation 4.9e-06 -0.490001 0.0300001
+  rotation -2.7999599999889585e-06 -2.1785999999914086e-07 0.9999999999960565 -3.1415853071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "C:/Users/mrayh/Downloads/0001.jpg"
+            ""
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 1 0.02 0.05
+      }
+    }
+  ]
+  name "solid(4)"
 }
