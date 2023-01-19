@@ -1,0 +1,56 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/Floor.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.15904475865142415 -0.12640039091486213 0.9791464169990515 4.464190381199323
+  position 1.049851914928066 4.235387486061368 0.5654806072561351
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 2 2
+}
+Solid {
+  translation 0.2 0 0.2
+  rotation -0.8800236300213996 -0.11579403671444781 0.4605976027568226 1.9713678576435738
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry DEF BALL_GEOMETRY Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  boundingObject USE BALL_GEOMETRY
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.95 0 0.02
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 2 0.05
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Solid {
+  children [
+    USE wall
+  ]
+  name "solid(2)"
+}
