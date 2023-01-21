@@ -5,7 +5,7 @@ sceneTreePerspectives: 000000ff000000010000000300000022000000c0000000fa010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 1 "../rayhan_tutor5/controllers/epuck_avoid_collision/epuck_avoid_collision.py" "../rayhan_tutor5/controllers/mobil/mobil.py"
+textFiles: 1 "../rayhan_tutor6/controllers/epuck_avoid_collision/epuck_avoid_collision.py" "../rayhan_tutor6/controllers/mobil/mobil.py"
 globalOptionalRendering: DistanceSensorRays
 consoles: Console:All:All
 renderingDevicePerspectives: e-puck:camera;1;1;0;0
