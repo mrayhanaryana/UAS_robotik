@@ -1,7 +1,9 @@
 <h1 align="center">Robotik UAS - Webots Tutorial and Hack Project</h1>
 <h3 align="center"> oleh Mohammad Rayhan Aryana - 1103194042</h3>
 
-![image](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa2d6018-0475-49e8-8a7b-5de44e90ccd5/d9v0lsx-c56e5417-0e60-497a-a059-de60955973a4.jpg/v1/fill/w_600,h_849,q_75,strp/doodle_of_telkom_university_logo_by_dhekaanzarp_d9v0lsx-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQ5IiwicGF0aCI6IlwvZlwvYWEyZDYwMTgtMDQ3NS00OWU4LThhN2ItNWRlNDRlOTBjY2Q1XC9kOXYwbHN4LWM1NmU1NDE3LTBlNjAtNDk3YS1hMDU5LWRlNjA5NTU5NzNhNC5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.czcCP-rZ6__l8i4exAbV7Yd8EII98mzZ3PXJF7NY23g) 
+<p align="center">
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa2d6018-0475-49e8-8a7b-5de44e90ccd5/d9v0lsx-c56e5417-0e60-497a-a059-de60955973a4.jpg/v1/fill/w_600,h_849,q_75,strp/doodle_of_telkom_university_logo_by_dhekaanzarp_d9v0lsx-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQ5IiwicGF0aCI6IlwvZlwvYWEyZDYwMTgtMDQ3NS00OWU4LThhN2ItNWRlNDRlOTBjY2Q1XC9kOXYwbHN4LWM1NmU1NDE3LTBlNjAtNDk3YS1hMDU5LWRlNjA5NTU5NzNhNC5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.czcCP-rZ6__l8i4exAbV7Yd8EII98mzZ3PXJF7NY23g" />
+</p>
 
 source: [devianart.com](https://www.deviantart.com/dhekaanzarp/art/Doodle-of-Telkom-University-logo-596291937)
 
