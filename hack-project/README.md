@@ -9,8 +9,8 @@ Micromouse adalah kompetisi robot yang diadakan untuk mencari jalan dari ruangan
 
 Webots menjadi salah satu aplikasi alternatif yang bisa mensimulasikan perangkat robot secara virtual sehingga kita tidak perlu membeli perangkat robot yang mahal berikut penggunaan webots pada simulasi micromouse:
 
-•	Robot Simulation Software 
-•	Visual 3D Environment (World) 
-•	Robot Programming (Controller)
+- Robot Simulation Software 
+- Visual 3D Environment (World) 
+- Robot Programming (Controller)
 
 untuk detail dokumentasi dapat dilihan pada [link](https://github.com/mrayhanaryana/UAS_robotik/blob/main/hack-project/Micromouse-doc-mohammadRayhanA-1103194042.pdf) berikut.
