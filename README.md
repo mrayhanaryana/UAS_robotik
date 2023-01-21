@@ -21,6 +21,11 @@ Untuk bisa menjalankan semua simulasi dan hack project pada repositori ini maka 
 - [ROS2](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) (install inside WSL)
 - [java](https://www.openlogic.com/openjdk-downloads)
 - [c/c++ compiler](https://visualstudio.microsoft.com/vs/features/cplusplus/)
+
+## Tutorial dan Hack Project
+Untuk rincian dokumentasi teknikal bisa dilihat di:
+- [hack-project](https://github.com/mrayhanaryana/UAS_robotik/tree/main/hack-project)
+- [tutorial](https://github.com/mrayhanaryana/UAS_robotik/tree/main/webots_tutorial)
  ## Lampiran
 - [Webots tutorial](https://cyberbotics.com/doc/guide/tutorials)
 - [micromouse project](https://github.com/emstef/Micromouse)
